@@ -1,5 +1,3 @@
-syntax on
-
 set relativenumber
 
 " indentation
@@ -26,7 +24,18 @@ endif
 " plugins
 call plug#begin('~/.config/nvim/plugged')
 Plug 'preservim/nerdtree'
+Plug 'mhartington/oceanic-next' " color scheme
+Plug 'maxmellon/vim-jsx-pretty' " jsx syntax
+Plug 'othree/yajs.vim'          " js syntax
 call plug#end()
+
+if (has("termguicolors"))
+ set termguicolors
+endif
+
+" Theme
+syntax enable
+colorscheme OceanicNext
 
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
