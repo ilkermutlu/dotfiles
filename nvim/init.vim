@@ -35,6 +35,9 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'mattn/emmet-vim'
 
+" Linter
+Plug 'dense-analysis/ale'
+
 Plug 'mhartington/oceanic-next' " color scheme
 Plug 'maxmellon/vim-jsx-pretty' " jsx syntax
 Plug 'othree/yajs.vim'          " js syntax
@@ -58,3 +61,18 @@ au FileType typescript setlocal formatprg=prettier\ --parser\ typescript
 au FileType html setlocal formatprg=js-beautify\ --type\ html
 au FileType scss setlocal formatprg=prettier\ --parser\ css
 au FileType css setlocal formatprg=prettier\ --parser\ css
+
+" ALE
+let g:ale_linters = {
+    \ 'javascript': ['eslint']
+\}
+
+let g:ale_fixers = {
+    \    'javascript': ['prettier', 'eslint'],
+    \    'scss': ['prettier'],
+    \    'html': ['prettier'],
+\}
+let g:ale_fix_on_save = 0
+let g:ale_echo_msg_error_str = 'E'
+let g:ale_echo_msg_warning_str = 'W'
+let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
