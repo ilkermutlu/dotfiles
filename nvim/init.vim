@@ -25,4 +25,8 @@ endif
 
 " plugins
 call plug#begin('~/.config/nvim/plugged')
+Plug 'preservim/nerdtree'
 call plug#end()
+
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>
