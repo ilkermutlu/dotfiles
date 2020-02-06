@@ -28,6 +28,11 @@ endif
 call plug#begin('~/.config/nvim/plugged')
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-fugitive'
+
+" FZF
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
+
 Plug 'mhartington/oceanic-next' " color scheme
 Plug 'maxmellon/vim-jsx-pretty' " jsx syntax
 Plug 'othree/yajs.vim'          " js syntax
