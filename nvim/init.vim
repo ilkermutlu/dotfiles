@@ -1,4 +1,4 @@
-set relativenumber
+set number relativenumber
 
 " indentation
 set autoindent     " new lines inherit indentation
