@@ -40,7 +40,7 @@ endif
 Plug 'tpope/vim-vinegar'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
-
+Plug 'easymotion/vim-easymotion'
 Plug 'mattn/emmet-vim'
 
 " Linter
