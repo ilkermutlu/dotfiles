@@ -86,3 +86,12 @@ let g:ale_fix_on_save = 0
 let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
 let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+" FZF Settings
+let g:fzf_action = {
+  \ 'ctrl-t': 'tab split',
+  \ 'ctrl-x': 'split',
+  \ 'ctrl-v': 'vsplit' }
+
+nnoremap <silent> <leader>f :FZF<cr>
+nnoremap <silent> <leader>G :GFiles<cr>
+nnoremap <silent> <leader>bu :Buffers<cr>
