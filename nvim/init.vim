@@ -29,7 +29,6 @@ endif
 
 " plugins
 call plug#begin('~/.config/nvim/plugged')
-Plug 'preservim/nerdtree'
 Plug 'tpope/vim-fugitive'
 
 " FZF
