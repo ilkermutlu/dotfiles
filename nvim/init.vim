@@ -37,6 +37,7 @@ else
 endif
 
 " FZF
+Plug 'tpope/vim-vinegar'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 
