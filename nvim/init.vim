@@ -1,5 +1,7 @@
 set number relativenumber
 
+let mapleader = ','
+
 " indentation
 set autoindent     " new lines inherit indentation
 set expandtab      " convert tabs to spaces
