@@ -15,6 +15,7 @@ set hlsearch       " search highlighting
 set ignorecase     " case insensitive search
 set incsearch      " incremental search
 set smartcase      " switch to case sensitive if query has uppercase
+set colorcolumn=80 
 
 " Clear search by hitting ESC in normal mode
 nnoremap <esc> :noh<return><esc>
