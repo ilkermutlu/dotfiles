@@ -43,6 +43,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'mattn/emmet-vim'
 Plug 'chrisbra/NrrwRgn'
+Plug 'jiangmiao/auto-pairs'
 
 " Linter
 Plug 'dense-analysis/ale'
