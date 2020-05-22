@@ -52,6 +52,9 @@ Plug 'dense-analysis/ale'
 
 Plug 'joshdick/onedark.vim'
 Plug 'morhetz/gruvbox'
+
+Plug 'vim-airline/vim-airline'
+
 Plug 'maxmellon/vim-jsx-pretty' " jsx syntax
 Plug 'othree/yajs.vim'          " js syntax
 
@@ -94,7 +97,7 @@ let g:airline_theme='onedark'
 " colorscheme gruvbox 
 
 nnoremap ` :Marks<CR> 
-map <C-n> :NERDTreeToggle<CR>
+
 " Emmet
 let g:user_emmet_leader_key='<C-]>'
 
