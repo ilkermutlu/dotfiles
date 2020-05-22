@@ -234,6 +234,7 @@ nnoremap <leader>gs :vertical Gstatus<CR>
 " Signify
 nnoremap <silent> <leader>shd :SignifyHunkDiff<CR>
 nnoremap <silent> <leader>shu :SignifyHunkUndo<CR>
+nnoremap <silent> <leader>sth :SignifyToggleHighlight<CR>
 
 " Narrow Region Settings
 let g:nrrw_rgn_vert = 1
