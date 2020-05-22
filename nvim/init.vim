@@ -42,6 +42,7 @@ Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'mattn/emmet-vim'
+Plug 'chrisbra/NrrwRgn'
 
 " Linter
 Plug 'dense-analysis/ale'
@@ -95,3 +96,7 @@ let g:fzf_action = {
 nnoremap <silent> <leader>f :FZF<cr>
 nnoremap <silent> <leader>G :GFiles<cr>
 nnoremap <silent> <leader>bu :Buffers<cr>
+
+" Narrow Region Settings
+let g:nrrw_rgn_vert = 1
+let g:nrrw_rgn_wdth = 90
