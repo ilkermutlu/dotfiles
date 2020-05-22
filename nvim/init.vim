@@ -122,7 +122,7 @@ let g:ale_fixers = {
     \    'scss': ['prettier'],
     \    'html': ['prettier'],
 \}
-let g:ale_fix_on_save = 0
+let g:ale_fix_on_save = 1
 let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
 let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
