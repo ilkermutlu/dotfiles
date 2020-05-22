@@ -67,6 +67,8 @@ colorscheme OceanicNext
 
 nnoremap ` :Marks<CR> 
 map <C-n> :NERDTreeToggle<CR>
+" Emmet
+let g:user_emmet_leader_key='<C-]>'
 
 " Formatters
 au FileType javascript setlocal formatprg=prettier
