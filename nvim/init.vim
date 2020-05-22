@@ -65,7 +65,7 @@ endif
 syntax enable
 colorscheme OceanicNext
 
-" NERDTree
+nnoremap ` :Marks<CR> 
 map <C-n> :NERDTreeToggle<CR>
 
 " Formatters
