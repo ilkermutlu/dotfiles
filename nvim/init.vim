@@ -59,6 +59,7 @@ Plug 'maxmellon/vim-jsx-pretty' " jsx syntax
 Plug 'othree/yajs.vim'          " js syntax
 
 Plug 'mtdl9/vim-log-highlighting' "log highlighting https://github.com/MTDL9/vim-log-highlighting
+Plug 'rust-lang/rust.vim'
 call plug#end()
 
 "if (has("termguicolors"))
