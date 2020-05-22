@@ -97,6 +97,9 @@ nnoremap <silent> <leader>f :FZF<cr>
 nnoremap <silent> <leader>G :GFiles<cr>
 nnoremap <silent> <leader>bu :Buffers<cr>
 
+" Fugitive Bindings
+nnoremap <leader>gs :vertical Gstatus<CR>
+
 " Narrow Region Settings
 let g:nrrw_rgn_vert = 1
 let g:nrrw_rgn_wdth = 90
