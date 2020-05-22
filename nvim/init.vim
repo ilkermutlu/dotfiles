@@ -44,6 +44,8 @@ Plug 'easymotion/vim-easymotion'
 Plug 'mattn/emmet-vim'
 Plug 'chrisbra/NrrwRgn'
 Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
 
 " Linter
 Plug 'dense-analysis/ale'
