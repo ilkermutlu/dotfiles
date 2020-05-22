@@ -138,6 +138,10 @@ nnoremap <silent> <leader>bu :Buffers<cr>
 " Fugitive Bindings
 nnoremap <leader>gs :vertical Gstatus<CR>
 
+" Signify
+nnoremap <silent> <leader>shd :SignifyHunkDiff<CR>
+nnoremap <silent> <leader>shu :SignifyHunkUndo<CR>
+
 " Narrow Region Settings
 let g:nrrw_rgn_vert = 1
 let g:nrrw_rgn_wdth = 90
