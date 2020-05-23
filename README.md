@@ -1,3 +1,4 @@
 # dotfiles
+These are some of my settings and customisations. They work well for me, they might not work well for you, because we all have different requirements, use cases and workflows.
 
-These are not currently fully synced from my local settings. I'm trying to get there bit by bit.
+Feel free to browse around and see what's there.
