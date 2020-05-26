@@ -12,6 +12,11 @@ font:
   offset:
     x: 0
     y: 4
+
+# Cursor
+cursor:
+  unfocused_hollow: true
+
 # Colors (One Dark)
 colors:
   # Default colors
