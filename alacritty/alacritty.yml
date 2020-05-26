@@ -2,6 +2,12 @@
 font:
   normal: 
     family: IBM Plex Mono
+  bold: 
+    family: IBM Plex Mono
+    style: Bold
+  italic: 
+    family: IBM Plex Mono
+    style: Italic 
   size: 14.0
   offset:
     x: 0
