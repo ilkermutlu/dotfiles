@@ -36,6 +36,8 @@ else
   Plug 'mhinz/vim-signify', { 'branch': 'legacy' }
 endif
 
+packadd! matchit
+
 " FZF
 Plug 'tpope/vim-vinegar'
 Plug '/usr/local/opt/fzf'
