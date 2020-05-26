@@ -50,6 +50,9 @@ Plug 'tpope/vim-commentary'
 " Linter
 Plug 'dense-analysis/ale'
 
+" Importing for JS
+Plug 'Galooshi/vim-import-js'
+
 Plug 'joshdick/onedark.vim'
 Plug 'morhetz/gruvbox'
 
