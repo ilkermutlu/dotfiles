@@ -1,3 +1,5 @@
+env:
+  TERM: xterm-256color
 # Font
 font:
   normal: 
@@ -21,7 +23,7 @@ cursor:
 colors:
   # Default colors
   primary:
-    background: '#282C34'
+    background: '#21242A'
     foreground: '#D3D3D3'
 
   # Normal colors
