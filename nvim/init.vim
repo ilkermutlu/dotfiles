@@ -67,6 +67,7 @@ Plug 'mtdl9/vim-log-highlighting' "log highlighting https://github.com/MTDL9/vim
 Plug 'neoclide/coc.nvim', {'branch': 'release'} "intellisense
 Plug 'rust-lang/rust.vim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
+Plug 'jwalton512/vim-blade'
 call plug#end()
 
 "if (has("termguicolors"))
