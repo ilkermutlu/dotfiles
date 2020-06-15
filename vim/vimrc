@@ -61,8 +61,8 @@ let g:fzf_action = {
   \ 'ctrl-x': 'split',
   \ 'ctrl-v': 'vsplit' }
 
-nnoremap <silent> <leader>f :FZF<cr>
-nnoremap <silent> <leader>G :GFiles<cr>
+nnoremap <silent> <leader>F :FZF<cr>
+nnoremap <silent> <leader>GF :GFiles<cr>
 nnoremap <silent> <leader>bu :Buffers<cr>
 
 " Emmet
