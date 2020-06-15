@@ -62,6 +62,7 @@ let g:lightline = {
 
 " Fugitive
 nnoremap <leader>gs :vertical Gstatus<cr>
+nnoremap ` :Marks<CR> 
 
 " FZF
 let g:fzf_action = {
@@ -216,6 +217,7 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
 " Narrow Region Settings
 let g:nrrw_rgn_vert = 1
 let g:nrrw_rgn_wdth = 90
