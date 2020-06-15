@@ -1,0 +1,19 @@
+filetype plugin indent on
+syntax on
+
+set autoindent                 
+set expandtab
+set shiftround
+set shiftwidth=4
+set tabstop=4
+set smarttab
+
+set backspace=indent,eol,start
+set hidden                    
+set incsearch                 
+set smartcase
+set ruler                     
+set wildmenu                  
+set colorcolumn=80
+
+runtime macros/matchit.vim
