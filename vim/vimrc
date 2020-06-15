@@ -20,7 +20,6 @@ set number relativenumber
 runtime macros/matchit.vim
 
 let mapleader = ','
-nnoremap <esc> :noh<return><esc>
 
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
