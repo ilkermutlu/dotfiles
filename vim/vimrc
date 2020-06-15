@@ -19,3 +19,4 @@ set colorcolumn=80
 runtime macros/matchit.vim
 
 let mapleader = ','
+nnoremap <esc> :noh<return><esc>
