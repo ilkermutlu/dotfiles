@@ -38,6 +38,8 @@ Plug 'mattn/emmet-vim'
 Plug 'arcticicestudio/nord-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'chrisbra/NrrwRgn'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
 call plug#end()
 
 " Theme
