@@ -48,6 +48,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'dense-analysis/ale'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'mhinz/vim-signify'
 call plug#end()
 
 " Theme
@@ -215,3 +216,7 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+" Signify
+nnoremap <silent> <leader>shd :SignifyHunkDiff<CR>
+nnoremap <silent> <leader>shu :SignifyHunkUndo<CR>
+nnoremap <silent> <leader>sth :SignifyToggleHighlight<CR>
