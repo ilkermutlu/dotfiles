@@ -216,6 +216,10 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+" Narrow Region Settings
+let g:nrrw_rgn_vert = 1
+let g:nrrw_rgn_wdth = 90
+
 " Signify
 nnoremap <silent> <leader>shd :SignifyHunkDiff<CR>
 nnoremap <silent> <leader>shu :SignifyHunkUndo<CR>
