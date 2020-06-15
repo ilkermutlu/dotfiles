@@ -34,6 +34,7 @@ Plug 'tpope/vim-vinegar'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'jiangmiao/auto-pairs'
+Plug 'mattn/emmet-vim'
 call plug#end()
 
 " Fugitive
@@ -48,3 +49,6 @@ let g:fzf_action = {
 nnoremap <silent> <leader>f :FZF<cr>
 nnoremap <silent> <leader>G :GFiles<cr>
 nnoremap <silent> <leader>bu :Buffers<cr>
+
+" Emmet
+let g:user_emmet_leader_key='<C-]>'
