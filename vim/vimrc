@@ -37,6 +37,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'
 Plug 'arcticicestudio/nord-vim'
 Plug 'itchyny/lightline.vim'
+Plug 'chrisbra/NrrwRgn'
 call plug#end()
 
 " Theme
