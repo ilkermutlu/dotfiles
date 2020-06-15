@@ -40,6 +40,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'chrisbra/NrrwRgn'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
+Plug 'dense-analysis/ale'
 call plug#end()
 
 " Theme
@@ -66,3 +67,20 @@ nnoremap <silent> <leader>bu :Buffers<cr>
 
 " Emmet
 let g:user_emmet_leader_key='<C-]>'
+
+" ALE
+ let g:ale_linters = {
+\    'javascript': ['eslint']
+\}
+
+let g:ale_fixers = {
+\    'javascript': ['prettier', 'eslint'],
+\    'scss': ['prettier'],
+\    'html': ['prettier'],
+\}
+
+let g:ale_fix_on_save = 1
+let g:ale_echo_msg_error_str = 'E'
+let g:ale_echo_msg_warning_str = 'W'
+let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+
