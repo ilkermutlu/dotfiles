@@ -23,6 +23,9 @@ set wildmenu
 set colorcolumn=80
 set number relativenumber
 
+set backupdir=$TMPDIR//
+set directory=$TMPDIR//
+
 runtime macros/matchit.vim
 
 let mapleader = ','
