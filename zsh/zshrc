@@ -18,9 +18,7 @@ alias zshconfig="vim ~/dotfiles/zsh/zshrc"
 
 export EDITOR=/usr/local/bin/nvim
 
-if type nvim > /dev/null 2>&1; then
-	alias vim='nvim'
-fi
+. /usr/local/etc/profile.d/z.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
