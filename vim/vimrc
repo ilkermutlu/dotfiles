@@ -57,6 +57,9 @@ Plug 'pangloss/vim-javascript'   " js syntax
 Plug 'maxmellon/vim-jsx-pretty' " jsx syntax
 Plug 'mtdl9/vim-log-highlighting' "log highlighting https://github.com/MTDL9/vim-log-highlighting
 Plug 'jwalton512/vim-blade'
+
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 call plug#end()
 
 " Theme
@@ -234,3 +237,6 @@ let g:nrrw_rgn_wdth = 90
 nnoremap <silent> <leader>shd :SignifyHunkDiff<CR>
 nnoremap <silent> <leader>shu :SignifyHunkUndo<CR>
 nnoremap <silent> <leader>sth :SignifyToggleHighlight<CR>
+
+" Ultisnips
+let g:UltiSnipsExpandTrigger="<c-/>"
