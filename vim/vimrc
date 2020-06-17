@@ -60,6 +60,7 @@ Plug 'jwalton512/vim-blade'
 
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'rust-lang/rust.vim'
 call plug#end()
 
 " Theme
