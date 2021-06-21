@@ -1,4 +1,12 @@
-# dotfiles
+* dotfiles
 These are some of my settings and customisations. They work well for me, they might not work well for you, because we all have different requirements, use cases and workflows.
 
 Feel free to browse around and see what's there.
+** Alacritty
+** Doom Emacs
+** Kitty
+** Neovim
+** Vim
+** Tmux
+** Tmuxinator
+** ZSH
