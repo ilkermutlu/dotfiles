@@ -48,4 +48,4 @@ colors:
     cyan:    '0x56b6c2'
     white:   '0xffffff'
 key_bindings:
-  - { key: Key3,     mods: Alt,     chars: "#"                        }
+  - { key: Key3, mods: Alt, chars: "#" }
