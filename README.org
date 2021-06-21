@@ -3,10 +3,15 @@ These are some of my settings and customisations. They work well for me, they mi
 
 Feel free to browse around and see what's there.
 ** Alacritty
+https://github.com/alacritty/alacritty
 ** Doom Emacs
+https://github.com/hlissner/doom-emacs
 ** Kitty
+https://sw.kovidgoyal.net/kitty/
 ** Neovim
 ** Vim
 ** Tmux
+https://github.com/tmux/tmux/wiki
 ** Tmuxinator
+https://github.com/tmuxinator/tmuxinator
 ** ZSH
