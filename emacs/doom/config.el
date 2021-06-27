@@ -64,6 +64,8 @@
       ;;doom-variable-pitch-font (font-spec :family "ETBembo" :size 14)
       doom-variable-pitch-font (font-spec :family "Fira Code" :size 14))
 
+(setq display-line-numbers-type 'relative)
+
 ;; [their] Allow mixed fonts in a buffer. This is particularly useful for Org mode, so I can mix source and prose blocks in the same document.
 ;; (add-hook! 'org-mode-hook #'mixed-pitch-mode)
 ;; (setq mixed-pitch-variable-pitch-cursor nil)
