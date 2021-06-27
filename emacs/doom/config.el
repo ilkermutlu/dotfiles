@@ -62,7 +62,7 @@
 
 (setq doom-font (font-spec :family "Fira Code" :size 14)
       ;;doom-variable-pitch-font (font-spec :family "ETBembo" :size 14)
-      doom-variable-pitch-font (font-spec :family "Fira Code" :size 14))
+      doom-variable-pitch-font (font-spec :family "Iosevka" :size 14))
 
 (setq display-line-numbers-type 'relative)
 
