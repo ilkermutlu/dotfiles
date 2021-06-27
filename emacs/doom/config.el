@@ -64,14 +64,21 @@
       ;;doom-variable-pitch-font (font-spec :family "ETBembo" :size 14)
       doom-variable-pitch-font (font-spec :family "Iosevka" :size 14))
 
+;; Use relative line numbers
 (setq display-line-numbers-type 'relative)
 
+;; Doom Theme
+(setq doom-theme 'doom-gruvbox)
+
+;; Treemacs theme
 (setq doom-themes-treemacs-theme "doom-colors")
 
 ;; [their] Allow mixed fonts in a buffer. This is particularly useful for Org mode, so I can mix source and prose blocks in the same document.
 ;; (add-hook! 'org-mode-hook #'mixed-pitch-mode)
 ;; (setq mixed-pitch-variable-pitch-cursor nil)
 
+;; Start maximized
 (add-to-list 'initial-frame-alist '(fullscreen . maximized))
 
+;; Log time when status changes to DONE
 (setq org-log-done 'time)
