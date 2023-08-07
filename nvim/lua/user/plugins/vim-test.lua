@@ -11,4 +11,5 @@ vim.cmd([[
   endfunction
   let g:test#custom_strategies = {'floaterm': function('FloatermStrategy')}
   let g:test#strategy = 'floaterm'
+  let g:test#php#pest#executable = 'sail pest'
 ]])
