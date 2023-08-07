@@ -7,7 +7,7 @@ vim.keymap.set('n', '<Leader>tv', ':TestVisit<CR>')
 vim.cmd([[
   function! FloatermStrategy(cmd)
     execute 'silent FloatermKill'
-    execute 'FloatermNew! '.a:cmd.' |less -X'
+    execute 'FloatermNew! '.a:cmd
   endfunction
   let g:test#custom_strategies = {'floaterm': function('FloatermStrategy')}
   let g:test#strategy = 'floaterm'
