@@ -27,6 +27,17 @@ require('lspconfig').jsonls.setup({
   }
 })
 
+-- emmet_language_server
+require('lspconfig').emmet_language_server.setup({
+  filetypes = { "css", "eruby", "html", "javascript", "javascriptreact", "less", "sass", "scss", "svelte", "pug", "typescriptreact", "vue", "blade" },
+  init_options = {
+    showexpandedabbreviation = "always",
+    showabbreviationsuggestions = true,
+    showsuggestionsassnippets = false,
+    excludelanguages = {},
+  },
+})
+
 -- null-ls
 require('null-ls').setup({
   sources = {
