@@ -213,8 +213,8 @@ use({
     vim.keymap.set('n', '[h', ':Gitsigns prev_hunk<CR>')
     vim.keymap.set('n', 'gs', ':Gitsigns stage_hunk<CR>')
     vim.keymap.set('n', 'gS', ':Gitsigns undo_stage_hunk<CR>')
-    vim.keymap.set('v', 'hhs', function() package.loaded.gitsigns.stage_hunk {vim.fn.line('.'), vim.fn.line('v')} end)
-    vim.keymap.set('v', 'hhS', function() package.loaded.gitsigns.reset_hunk {vim.fn.line('.'), vim.fn.line('v')} end)
+    vim.keymap.set('v', 'ggs', function() package.loaded.gitsigns.stage_hunk {vim.fn.line('.'), vim.fn.line('v')} end)
+    vim.keymap.set('v', 'ggS', function() package.loaded.gitsigns.reset_hunk {vim.fn.line('.'), vim.fn.line('v')} end)
     vim.keymap.set('n', 'gp', ':Gitsigns preview_hunk<CR>')
     vim.keymap.set('n', 'gb', ':Gitsigns blame_line<CR>')
   end,
