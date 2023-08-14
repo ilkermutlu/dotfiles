@@ -1,0 +1,10 @@
+[user]
+    name = Ilker Mutlu
+    email = ilker.mutlu@gmail.com
+[core]
+    autocrlf = input
+    editor = nvim
+[init]
+    defaultBranch = main
+[push]
+    autoSetupRemote = true
