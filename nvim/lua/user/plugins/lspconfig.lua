@@ -68,6 +68,7 @@ vim.keymap.set('n', 'gr', ':Telescope lsp_references<CR>')
 vim.keymap.set('n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>')
 vim.keymap.set('n', '<Leader>rn', '<cmd>lua vim.lsp.buf.rename()<CR>')
 vim.keymap.set('n', '<Leader>lp', ':Telescope help_tags<CR>')
+vim.keymap.set('n', 'ssy', '<cmd>lua vim.lsp.buf.document_symbol()<CR>')
 
 -- Commands
 vim.api.nvim_create_user_command('Format', vim.lsp.buf.format, {})
