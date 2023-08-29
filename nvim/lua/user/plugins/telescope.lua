@@ -43,6 +43,8 @@ require('telescope').setup({
     },
     buffers = {
       previewer = false,
+      ignore_current_buffer = true,
+      sort_lastused = true,
       layout_config = {
         width = 80,
       },
