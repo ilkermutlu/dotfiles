@@ -27,6 +27,16 @@ require('telescope').setup({
     },
     file_ignore_patterns = { '.git/' },
   },
+  extensions = {
+    live_grep_args = {
+      mappings = {
+        i = {
+          ["<C-k>"] = require("telescope-live-grep-args.actions").quote_prompt(),
+          ["<C-i>"] = require("telescope-live-grep-args.actions").quote_prompt({ postfix = " --iglob " }),
+        },
+      },
+    },
+  },
   pickers = {
     find_files = {
       hidden = true,
